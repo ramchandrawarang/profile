@@ -1,0 +1,17 @@
+1. Read the IGF file in xls or xlsx format only. if format is other than xls or xlsx its failed (.csv also will not work).
+2. Upload file to CMDB.
+3. Start the automation execution.
+4. Phase1 
+    Execute new_provision.py
+    Read log file - will get the ILO ip and mac.
+    Curl on ip and get the SN and update CMDB.
+    Read CMDB records and check RFP.
+    Compare SN , make, model, cpu type (internal disk , NIC in lator stage if possible).
+    -If hardware profile mismatch then stop that mismatched execution only and ask user to provide input to overwrite the further process or not.
+    Make ILO ip static.
+    Apply IRS - if there HW issue it will log ticket with HP.
+    -Cheking firmware if update available then update the tested firmware. chek HP site for updated firmware if avilable the download it and install that.
+    
+5. Phase 2   
+    RAID configuration.
+    
