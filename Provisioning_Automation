@@ -8,10 +8,36 @@
     Read CMDB records and check RFP.
     Compare SN , make, model, cpu type (internal disk , NIC in lator stage if possible).
     -If hardware profile mismatch then stop that mismatched execution only and ask user to provide input to overwrite the further process or not.
-    Make ILO ip static.
+    Make ILO ip static, create user.
     Apply IRS - if there HW issue it will log ticket with HP.
     -Cheking firmware if update available then update the tested firmware. chek HP site for updated firmware if avilable the download it and install that.
     
-5. Phase 2   
-    RAID configuration.
+5. Phase 2
+    Data ip allocation/validation:
+    User has to update ILO VLAN configuration on the switch and update ILO DHCP server to serve the planed subnet.
+    The subnet info should be available in t_subnet table and in t_ipstatus and ther should be the free ip to alocate.
+    Need to think on how to get the new subnet info into t_subnet and replicate into t_ipstatus table and update DHCp server.
+    For RAID configuration we need some info from user before.
+    Build ISO image with driver.
+    - network connectivity
+    - will move discovery into after ILO config 
+    - save xml file to server (switch info)
+    - RAID configuration. (RFA)
+    - Need to enable PXE for 10gig nic card (will only for 560 + SPF model).(we cant use pxe because pxe not enable on all model 10Gig card)
+    - Till this all steps same for linux, windows, esxi.
+    - The automation should work with linux, windows, esxi os without any human intervention. 
+    - For Linux
+        Creating kikstart file from table.
+        Create ISO image 38MB size per m/c and start OS installation.
+    - For ESXI
+        its working.
+    - For Windows
+        Pending task - We have to buld solution for Windows.
+        (need to add story in taiga for windows baremetal provisioning.)
+    
+    We need to discuss about image repository
+    (under hardik lead we have to do start to end linux and esxi os baremetal provisioning without human intervention.)    
+    (Under ashutosh lead we have to do hetrogeneous start to end baremetal provisioning without human intervention.)
+    
+    
     
