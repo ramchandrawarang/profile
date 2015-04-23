@@ -1,3 +1,4 @@
+Bare metal provisioning document.
 1. Read the IGF file in xls or xlsx format only. if format is other than xls or xlsx its failed (.csv also will not work).
 2. Upload file to CMDB.
 3. Start the automation execution.
@@ -38,6 +39,3 @@
     We need to discuss about image repository
     (under hardik lead we have to do start to end linux and esxi os baremetal provisioning without human intervention.)    
     (Under ashutosh lead we have to do hetrogeneous start to end baremetal provisioning without human intervention.)
-    
-    
-    
