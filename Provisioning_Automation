@@ -1,4 +1,6 @@
+
 Bare metal provisioning document.
+
 1. Read the IGF file in xls or xlsx format only. if format is other than xls or xlsx its failed (.csv also will not work).
 2. Upload file to CMDB.
 3. Start the automation execution.
