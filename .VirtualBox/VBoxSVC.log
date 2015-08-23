@@ -1,0 +1,32 @@
+25:16:03.656092 MainPower Log continuation - Log started 2015-03-29T06:54:45.314657500Z
+25:42:53.952558 MainPower Host resumed: Resumed 1 VMs
+25:42:57.603522 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+25:42:57.603522 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+25:42:57.604022 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:24:36.542847 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:24:36.542847 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:24:36.543347 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:39:36.300602 MainPower Host suspending: Paused 1 VMs
+26:50:16.407634 MainPower Host resumed: Resumed 1 VMs
+26:50:19.708053 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:50:19.708053 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:50:19.708053 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:52:22.122598 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:52:22.122598 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+26:52:22.122598 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+27:48:04.543031 MainPower Host suspending: Paused 1 VMs
+27:50:47.884997 MainPower Host resumed: Resumed 1 VMs
+28:25:51.306598 MainPower Host suspending: Paused 1 VMs
+28:57:19.734532 MainPower Host resumed: Resumed 1 VMs
+28:57:24.439130 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+28:57:24.439130 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+28:57:24.439630 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:05:11.704465 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:05:11.704465 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:05:11.704465 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:17:34.789325 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:17:34.789325 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+29:17:34.789325 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+30:17:11.518512 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+30:17:11.518512 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+30:17:11.518512 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
