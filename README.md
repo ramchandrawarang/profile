@@ -1,6 +1,11 @@
 TechGIG application installation
 LinkedIN profile
 
+Git Bash Software
+Sublime Text
+Virtual Box
+Node.js
+
 
 
 iClinic - Patients Data
@@ -26,5 +31,8 @@ Angular 4 (typescript), PHP
 
 Basic:
 HTML5, CSS, JavaScript, JQuery, BootStrap
+
+To Study:
+AngularClass Starter
 
 
