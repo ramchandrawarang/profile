@@ -25,6 +25,6 @@ FrontEnd:
 Angular 4 (typescript), PHP
 
 Basic:
-HTML5, CSS, JavaScript, JQuery
+HTML5, CSS, JavaScript, JQuery, BootStrap
 
 
